@@ -1,9 +1,10 @@
 import React from "react";
+import Button from "./Elements/Button";
 
 const NavBar: React.FC = () => {
   return (
     <div className="py-[25px]">
-      <div className="flex justify-between items-center w-[1200px] mx-auto px-37">
+      <div className="flex justify-between items-center w-[65%] mx-auto px-37">
         <div>
           <h1 className="text-[40px] font-bold text-regal-blue">CHATTER</h1>
         </div>
@@ -17,9 +18,7 @@ const NavBar: React.FC = () => {
           <button className="border-solid border-[1px] border-regal-blue rounded-lg py-4 px-12">
             Log in
           </button>
-          <button className="py-4 px-12 text-white bg-regal-blue rounded-lg">
-            Sign up
-          </button>
+          <Button text="Sign up"/>
         </div>
       </div>
     </div>

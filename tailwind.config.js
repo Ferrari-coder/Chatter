@@ -8,7 +8,8 @@ export default {
     fontSize: {
       sm: '15px',
       base: '18px',
-      xl: '100px',
+      l: '24px',
+      xl: '48px',
     },
     extend: {
       colors: {
