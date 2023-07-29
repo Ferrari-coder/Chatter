@@ -1,13 +1,13 @@
 import React from "react"
-// import SideBar from "./Components/SideBar"
-import Home from "./Pages/Home"
+import Feed from "./Pages/Feed/Feed"
+// import Home from "./Pages/Home"
 
 
 const App: React.FC  = () => {
   return (
     <div>
-      {/* <SideBar/> */}
-      <Home />
+      {/* <Home /> */}
+      <Feed />
     </div>
   )
 }
