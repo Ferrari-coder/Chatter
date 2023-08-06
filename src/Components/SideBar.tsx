@@ -6,30 +6,30 @@ import { SiSimpleanalytics } from "react-icons/si";
 
 const SideBar: React.FC = () => {
   return (
-    <div className="flex-1 w-[15%]">
-      <div className="text-regal-blue text-[30px] font-medium px-4 py-5">
+    <section className="border-r-[1px] border-[#D0D0D0] h-full fixed p-4">
+      <div className="text-regal-blue text-[30px] font-medium  ">
         <a href="#">CHATTER</a>
       </div>
       <div  className="">
         <div className="flex gap-5 text-base items-center px-4 py-3 hover:bg-[#3182CE] rounded-[8px] hover:text-white">
-          <AiOutlineHome className="text-l" /> <span>Home</span>
+          <AiOutlineHome  /> <span>Home</span>
         </div>
         <div className="flex gap-5 text-base items-center px-4 py-3 hover:bg-[#3182CE] rounded-[8px] hover:text-white">
-          <AiOutlineCompass className="text-l" /> <span>Explore</span>
+          <AiOutlineCompass  /> <span>Explore</span>
         </div>
         <div className="flex gap-5 text-base items-center px-4 py-3 hover:bg-[#3182CE] rounded-[8px] hover:text-white">
-          <MdOutlineBookmarkBorder className="text-l" /> <span>Bookmarks</span>
+          <MdOutlineBookmarkBorder  /> <span>Bookmarks</span>
         </div>
         <div className="flex gap-5 text-base items-center px-4 py-3 hover:bg-[#3182CE] rounded-[8px] hover:text-white">
-          <BiEdit className="text-l" /> <span>Drafts</span>
+          <BiEdit  /> <span>Drafts</span>
         </div>
         <div className="flex gap-5 text-base items-center px-4 py-3 hover:bg-[#3182CE] rounded-[8px] hover:text-white">
-          <SiSimpleanalytics className="text-l" /> <span>Analytics</span>
+          <SiSimpleanalytics /> <span>Analytics</span>
         </div>
       </div>
 
       <div className="flex gap-5 mt-5 mb-2 text-base items-center">
-        <MdTrendingUp className="text-l" /> <span>Trending Tags</span>
+        <MdTrendingUp  /> <span>Trending Tags</span>
       </div>
       <div>
         <div className="text-base items-center px-4 py-3 hover:bg-[#3182CE] rounded-[8px] hover:text-white">
@@ -46,7 +46,7 @@ const SideBar: React.FC = () => {
         </div>
         <a href="#" className="text-[#3182CE]">See all</a>
       </div>
-    </div>
+    </section>
   );
 };
 
