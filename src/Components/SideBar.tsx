@@ -6,12 +6,12 @@ import { SiSimpleanalytics } from "react-icons/si";
 
 const SideBar: React.FC = () => {
   return (
-    <section className="border-r-[1px] border-[#D0D0D0] h-full fixed p-4">
+    <section className="border-r-[1px] border-[#D0D0D0] h-[100vh] p-4">
       <div className="text-regal-blue text-[30px] font-medium  ">
         <a href="#">CHATTER</a>
       </div>
       <div  className="">
-        <div className="flex gap-5 text-base items-center px-4 py-3 hover:bg-[#3182CE] rounded-[8px] hover:text-white">
+        <div className="flex gap-5 text-base items-center px-4 pt-5 pb-3 hover:bg-[#3182CE] rounded-[8px] hover:text-white">
           <AiOutlineHome  /> <span>Home</span>
         </div>
         <div className="flex gap-5 text-base items-center px-4 py-3 hover:bg-[#3182CE] rounded-[8px] hover:text-white">
@@ -32,17 +32,17 @@ const SideBar: React.FC = () => {
         <MdTrendingUp  /> <span>Trending Tags</span>
       </div>
       <div>
-        <div className="text-base items-center px-4 py-3 hover:bg-[#3182CE] rounded-[8px] hover:text-white">
-          <h3>Development <span className="ml-[3px] px-2 py-1 rounded-[5px] bg-[#EDF2F7]">+5</span></h3>
+        <div className="text-base  px-4 py-3 hover:bg-[#3182CE] rounded-[8px] hover:text-white">
+          <h3>Development</h3>
         </div>
         <div className="text-base px-4 py-3 hover:bg-[#3182CE] rounded-[8px] hover:text-white">
-          <h3>Technology <span className="ml-[3px] px-2 py-1 rounded-[5px] bg-[#EDF2F7]">+4</span></h3>
+          <h3>Technology</h3>
         </div>
         <div className="text-base px-4 py-3 hover:bg-[#3182CE] rounded-[8px] hover:text-white">
-          <h3>Politics <span className="ml-[3px] px-2 py-1 rounded-[5px] bg-[#EDF2F7]">+4</span></h3>
+          <h3>Politics</h3>
         </div>
         <div className="text-base px-4 py-3 hover:bg-[#3182CE] rounded-[8px] hover:text-white">
-          <h3>Music <span className="ml-[3px] px-2 py-1 rounded-[5px] bg-[#EDF2F7]">+1</span></h3>
+          <h3>Music</h3>
         </div>
         <a href="#" className="text-[#3182CE]">See all</a>
       </div>

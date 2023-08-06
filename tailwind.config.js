@@ -6,10 +6,10 @@ export default {
   ],
   theme: {
     fontSize: {
-      sm: '15px',
-      base: '18px',
-      l: '24px',
-      xl: '48px',
+      sm: '12px',
+      base: '15px',
+      l: '18px',
+      xl: '24px',
     },
     extend: {
       colors: {
